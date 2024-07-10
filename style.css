@@ -1,0 +1,919 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: NotoSansPahawhHmong;
+  src: url(Fonts/NotoSansPahawhHmong-Regular.ttf);
+}
+
+.firstrow {
+  background-size: cover;
+  height: 550px;
+  padding: 0px 8px;
+  background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png");
+  height: 550px;
+  width: 100%;
+
+  background-position: center center;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.logo{
+  padding-top: 20px;
+}
+
+.logo h3 {
+  
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  font-family: NotoSansPahawhHmong;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.buttons {
+  display: flex;
+ 
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.buttons button:nth-child(1) {
+  font-weight: 800;
+  margin-top: 10px;
+  letter-spacing: -0.04ch;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 0px 15px;
+  margin-right: 5px;
+  background-color: rgb(217, 20, 0);
+  border-radius: 20px;
+}
+
+.buttons button:nth-child(2) {
+  font-weight: 800;
+  margin-top: 10px;
+  letter-spacing: -0.04ch;
+  height: 40px;
+  color: black;
+  border: none;
+  padding: 0px 15px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.deliveryAddress {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+}
+
+.deliveryAddress h2 {
+  padding-top: 50px;
+  color: white;
+  font-family: NotoSansPahawhHmong;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.deliveryAddress input {
+  border-radius: 25px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  border: none;
+}
+
+::placeholder {
+  font-size: medium;
+}
+
+.deliveryAddress input:nth-child(1) {
+  font-family: NotoSansPahawhHmong;
+  padding: 15px 75px;
+}
+
+.deliveryAddress input:nth-child(2) {
+  font-family: NotoSansPahawhHmong;
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.locationLogo {
+  position: absolute;
+  top: 42%;
+  left: 37%;
+}
+
+.partner {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.partnerCard {
+  border: none;
+}
+
+.partner img {
+  height: 150px;
+  width: 100%;
+  object-fit: fill;
+}
+.partner div {
+  margin: auto;
+}
+.partner h3,
+p,
+a {
+  font-family: NotoSansPahawhHmong;
+}
+
+.partner h3 {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+
+
+.partner a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(235, 23, 0);
+}
+
+.secondRow {
+  width: 80%;
+  margin: 75px auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1.2fr;
+}
+
+.secondRow img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.secondRow button {
+  font-weight: 800;
+  margin-top: 10px;
+  letter-spacing: -0.04ch;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 0px 15px;
+  margin-right: 5px;
+  background-color: rgb(217, 20, 0);
+  border-radius: 20px;
+}
+
+.secondRow div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thirdRow {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1.2fr 1fr;
+  width: 80%;
+  margin: auto;
+}
+
+.thirdRow img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.thirdRow div:nth-child(2) {
+  margin: auto;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thirdRow button {
+  font-weight: 800;
+  margin-top: 10px;
+  letter-spacing: -0.04ch;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 0px 15px;
+  margin-right: 5px;
+  background-color: rgb(217, 20, 0);
+  border-radius: 20px;
+}
+
+.fourthRow {
+  position: absolute;
+  width: 100%;
+  margin-top: 50px;
+  height: 600px;
+}
+
+.fourthRow img {
+  filter: brightness(50%);
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+.fourthRowcontent {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.fourthRowcontent h1,
+h3,
+p {
+  color: white;
+}
+
+.fourthRowcontent button {
+  font-weight: 800;
+  margin-top: 10px;
+  letter-spacing: -0.04ch;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 0px 15px;
+  margin-right: 5px;
+  background-color: rgb(217, 20, 0);
+  border-radius: 20px;
+}
+
+.fifthRow {
+  width: 80%;
+  margin: 75px auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1.2fr;
+}
+
+.fifthRow img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.fifthRow button{
+    font-weight: 800;
+  margin-top: 10px;
+  letter-spacing: -0.04ch;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 0px 15px;
+  margin-right: 5px;
+  background-color: rgb(217, 20, 0);
+  border-radius: 20px;
+}
+
+.fifthRow div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.fifthRow h1,p{
+  font-family: NotoSansPahawhHmong;
+  font-weight: 800;
+}
+
+.helping h1{
+  font-family: NotoSansPahawhHmong;
+  text-align: center;
+  font-weight: 800;
+
+}
+
+
+.unlocking h1{
+  margin-top: 50px;
+  text-align: center;
+  font-family: NotoSansPahawhHmong;
+  font-weight: 800;
+  
+}
+
+.seventhRow{
+  width: 80%;
+  margin: 75px auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1.2fr;
+  font-family: NotoSansPahawhHmong;
+}
+
+.seventhRow h2{
+  font-weight: 800;
+}
+
+.seventhRow p{
+  font-family: 50;
+  font-size: smaller;
+ }
+
+.seventhRow div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.seventhRow img{
+  object-fit: cover;
+  width: 100%;
+}
+
+
+
+.seventhRow button{
+  font-weight: 800;
+  margin-top: 10px;
+  letter-spacing: -0.04ch;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 0px 15px;
+  margin-right: 5px;
+  background-color: rgb(217, 20, 0);
+  border-radius: 20px;
+}
+
+
+.eighthRow{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1.2fr 1fr;
+  width: 80%;
+  margin: auto;
+  font-family: NotoSansPahawhHmong;
+}
+
+.eighthRow h2{
+  font-weight: 800;
+}
+
+.eighthRow img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.eighthRow button{
+  font-weight: 800;
+  margin-top: 10px;
+  letter-spacing: -0.04ch;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 0px 15px;
+  margin-right: 5px;
+  background-color: rgb(217, 20, 0);
+  border-radius: 20px;
+}
+
+.eighthRow div:nth-child(2)
+{
+  margin: auto;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+ .eighthRow p{
+  font-family: 50;
+  font-size: smaller;
+ }
+
+.footer{
+  background-color: black;
+  padding-top: 20px;
+  margin-top: 20px;
+
+}
+
+
+.footer a{
+  text-decoration: none;
+  color: rgb(196, 196, 196);
+  display: block;
+  font-family: NotoSansPahawhHmong;
+  font-size: smaller;
+}
+
+.footer a:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+.firstFoot{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+.footer p{
+  font-family: 50;
+  font-family: NotoSansPahawhHmong;
+  font-size: 13px;
+}
+
+
+
+.col1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+}
+
+.col2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+}
+
+.secondFoot{
+  padding-top: 20px;
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+.thirdFoot{
+  width:80%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns:1fr 1fr  ;
+
+}
+
+.thirdFootOne{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  
+}
+
+.thirdFootTwo{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.thirdFootTwo div{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+
+}
+
+svg{
+  background-color: rgb(68, 65, 65);
+  border-radius: 10px;
+}
+
+svg:hover{
+  background-color: grey;
+}
+
+
+.fourthFoot{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+ 
+}
+
+.fourthOne{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.fourthOne a{
+  font-size: 10px;
+}
+
+.fourthFoot ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.fourthFoot ul li{
+  list-style-type: none;
+  color: rgb(141, 139, 139);
+  font-size: 20px;
+}
+
+@media screen and (max-width: 559px) {
+
+  .buttons button:nth-child(1) {
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 12px;
+    padding: 0px 8px;
+   
+    
+ 
+  }
+  
+  .buttons button:nth-child(2) {
+    font-weight: 500;
+    font-size: 12px;
+    padding: 0px 8px;
+    background-color: white;
+   
+  }
+
+  .form input:nth-child(1){
+    padding: 0px 5px;
+    margin:0 10px
+  }
+
+  .deliveryAddress input:nth-child(1) {
+    font-family: NotoSansPahawhHmong;
+    padding: 12px 45px;
+  }
+
+  .deliveryAddress input:nth-child(2) {
+    font-family: NotoSansPahawhHmong;
+    padding: 8px 18px;
+    font-size: 10px;
+    font-weight: 500;
+    
+  }
+  
+}
+
+@media screen and (min-width:770px){
+  .sixthRow{
+    display: grid;
+    width:80%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-align: center;
+    background-color: rgb(254, 241, 238);
+  }
+
+  .sixthRow img{
+    width:100%;
+    object-fit: cover;
+  }
+
+  .sixthRow h2{
+    font-family:NotoSansPahawhHmong ;
+    font-weight: 800;
+  
+  }
+  
+  .sixthRow p{
+    color: black;
+    font-family: NotoSansPahawhHmong;
+    font-weight: 100;
+    font-size: small;
+   
+  }
+  
+  .sixthRow button{
+    font-weight: 800;
+    margin-top: 10px;
+    letter-spacing: -0.04ch;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 0px 15px;
+    margin-right: 5px;
+    background-color: rgb(217, 20, 0);
+    border-radius: 20px;
+  }
+
+ 
+}
+
+@media screen and (max-width: 770px) {
+
+  .logo{
+    position: absolute;
+    left: 50%;
+    top: 18%;
+    transform: translate(-50%, -50%);    
+  }
+
+  .buttons button:nth-child(1) {
+    font-weight: 600;
+    padding: 0px 10px;
+    background-color: rgb(217, 20, 0);
+   
+  }
+  
+  .buttons button:nth-child(2) {
+    font-weight: 600;
+    margin-top: 10px;
+    padding: 0px 10px;
+  }
+
+  nav{
+    display: flex;
+    justify-content: right;
+  }
+
+  .deliveryAddress h2 {
+    padding-top: 50px;
+    color: white;
+    font-family: NotoSansPahawhHmong;
+    font-size: 23px;
+  }
+
+  .deliveryAddress input:nth-child(2) {
+    font-family: NotoSansPahawhHmong;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 800;
+    content: "Sign In";
+  }
+
+  .secondRow {
+    grid-template-columns: 1fr;
+    grid-auto-flow: initial; 
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .secondRow img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+  
+  }
+
+  .thirdRow {
+    grid-template-columns: 1fr;
+  }
+
+  .thirdRow img {
+    height: 150px;
+  }
+
+  .thirdRow div:nth-child(2) {
+    padding-left: 0;
+  }
+
+
+  .fifthRow{
+    width: 80%;
+    margin: 30px auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    position: relative;
+    top: 200px;
+  }
+
+  .fifthRow img{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    top: -375px;
+  }
+
+  .helping{
+    margin-top: 100px;
+  }
+
+  .sixthRow button{
+    font-weight: 600;
+    font-size: 13px;
+  }
+
+ 
+
+  .sixthRow::-webkit-scrollbar{
+    width: 0;
+  }
+
+
+
+  .sixthRow {
+    max-height: 450px;
+    margin: auto;
+    display: flex;
+    overflow-x: auto;
+    width: 80%;
+    text-align: center;
+    
+  }
+
+  .sixthRow img{
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+  }
+
+  .sixthRowItem{
+    min-height: 40px;
+    min-width: 98%;
+  }
+
+  .sixthRow h2{
+    font-family:NotoSansPahawhHmong ;
+    font-weight: 800;
+  
+  }
+  
+  .sixthRow p{
+    color: black;
+    font-family: NotoSansPahawhHmong;
+    font-weight: 100;
+    font-size: small;
+   
+  }
+  
+  .sixthRow button{
+    font-weight: 800;
+    margin-top: 10px;
+    letter-spacing: -0.04ch;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 0px 15px;
+    margin-right: 5px;
+    background-color: rgb(217, 20, 0);
+    border-radius: 20px;
+  }
+ 
+  .seventhRow{
+  
+    grid-template-columns: 1fr;
+    grid-auto-flow: initial ;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .seventhRow img {
+    height: 175px;
+    width: 100%;
+    object-fit: cover;
+    
+  }
+
+  .eighthRow{
+    grid-template-columns: 1fr;
+  }
+
+  .eighthRow img{
+    height: 175px;
+  }
+
+  .col1{
+    grid-template-columns: 1fr;
+    
+  }
+
+  .col2{
+    grid-template-columns: 1fr;
+  
+    height: 100px;
+  }
+
+  .firstFoot{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .secondFoot{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .thirdFootOne{
+    
+    grid-template-columns: 1fr ;
+    text-align: center;
+    
+  }
+
+  .fourthFoot{
+    grid-template-columns: 1fr;
+    grid-auto-flow: initial; 
+    display: flex;
+    flex-direction: column-reverse;
+    
+  }
+
+  .fourthFoot ul{
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    padding: 10px;
+  }
+   
+  .fourthFoot ul li{
+    padding: 20px;
+  }
+  
+  
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1270px) {
+  .partner {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .partner div {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    width: 10rem;
+    margin-top: 30px;
+  }
+}
+
+
+@media screen and (max-width:959px){
+  .firstFoot{
+    grid-template-columns: 1fr;
+  }
+  .col1{
+    margin-bottom: 50px;
+  }
+  .col1 div{
+    margin-bottom: 50px;
+  }
+
+  .thirdFoot{
+    grid-template-columns:1fr  ;
+    display: flex;
+    grid-auto-flow: initial; 
+    display: flex;
+    flex-direction: column-reverse;
+
+  
+  }
+
+  .thirdFootOne{
+    margin-top: 150px;
+  }
+
+  
+
+  .thirdFootTwo{
+    
+   
+    
+    justify-content: center;
+    margin: auto;
+  }
+
+ 
+}
